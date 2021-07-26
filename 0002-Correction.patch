@@ -1,0 +1,30 @@
+From 05063f13d4b4a3dec6123952503d226e72463d61 Mon Sep 17 00:00:00 2001
+From: Charlie Lin <clin@rollins.edu>
+Date: Thu, 13 May 2021 15:34:52 -0400
+Subject: [PATCH 2/2] Correction
+
+---
+ src/Graph.tsx | 7 +------
+ 1 file changed, 1 insertion(+), 6 deletions(-)
+
+diff --git a/src/Graph.tsx b/src/Graph.tsx
+index 31d535c..4b61491 100644
+--- a/src/Graph.tsx
++++ b/src/Graph.tsx
+@@ -53,12 +53,7 @@ class Graph extends Component<IProps, {}> {
+       elem.setAttribute('column_pivots', '["stock"]');
+       elem.setAttribute('row_pivots', '["timestamp"]');
+       elem.setAttribute('columns', '["top_ask_price"]');
+-      elem.setAttribute('aggregates', `{
+-        "stock": "distinct count",
+-        "top_ask_price": "avg",
+-        "top_bid_price": "avg",
+-        "timestamp": "distinct_count"
+-      }`);
++      elem.setAttribute('aggregates', '{"stock": "distinct count","top_ask_price": "avg","top_bid_price": "avg","timestamp": "distinct_count"}');
+     }
+   }
+ 
+-- 
+2.31.1.windows.1
+
