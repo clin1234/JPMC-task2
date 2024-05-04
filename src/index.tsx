@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import App from './App';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.css';
@@ -11,4 +11,5 @@ declare global {
 /**
  * React App attaches the DOM to the DOM element #root in public/index.html
  */
-ReactDOM.render(<App />, document.getElementById('root'));
+const root = createRoot(document.getElementById('root')!);
+root.render(<App />);
