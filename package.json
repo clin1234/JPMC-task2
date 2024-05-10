@@ -3,24 +3,22 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@finos/perspective": "^2.10.0",
-    "@finos/perspective-viewer": "^2.10.0",
-    "@finos/perspective-viewer-d3fc": "^2.10.0",
-    "@types/jest": "^29.5.12",
-    "@types/node": "^20.12.10",
-    "@types/react": "^18.2.79",
-    "@types/react-dom": "^18.2.25",
-    "bootstrap": "^5.3.3",
-    "puppeteer": "^22.8.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-scripts": "^5.0.1"
+    "@finos/perspective": "^2.x",
+    "@finos/perspective-viewer": "^2.x",
+    "@finos/perspective-viewer-d3fc": "^2.x",
+    "@types/jest": "^29.x",
+    "@types/node": "^20.x",
+    "@types/react": "^18.x",
+    "@types/react-dom": "^18.x",
+    "bootstrap": "^5.x",
+    "puppeteer": "^22.x",
+    "react": "^18.x",
+    "react-dom": "^18.x"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "rsbuild dev",
+    "build": "rsbuild build",
+    "preview": "rsbuild preview"
   },
   "eslintConfig": {
     "extends": "react-app"
@@ -32,8 +30,10 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "awesome-typescript-loader": "^5.2.1",
-    "source-map-loader": "^5.0.0",
-    "typescript": "^5.4.5"
+    "@rsbuild/core": "^0.6.13",
+    "@rsbuild/plugin-react": "^0.6.13",
+    "awesome-typescript-loader": "^5.x",
+    "source-map-loader": "^5.x",
+    "typescript": "^3.x"
   }
 }
