@@ -274,25 +274,14 @@
     html-webpack-plugin "npm:html-rspack-plugin@5.7.2"
     postcss "^8.4.38"
 
-"@rsbuild/plugin-react@^0.6.13":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-0.6.13.tgz#bd4edd4c1759ba8e31c8fc04503989fa118d3c16"
-  integrity sha512-lHU8/Iqj1+J9A2EW9kO/acpKXZKr4le59ernPqPWfqNIRPeMCwmg/DGl/aK3Gf/W2mx9y36EXMvKwHi6KIIyug==
+"@rsbuild/plugin-react@^0.6.15":
+  version "0.6.15"
+  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-0.6.15.tgz#9cf93ac84b488e4383ff3b14b8ad207c105726ba"
+  integrity sha512-ZLFF5qYgQPKbJ5IL85XayadryxnHoaLUUjd2ewf/d/TRUh2NiWyZGaNzRytbmhaxI0WW8RUkZdy5aX3xyiZbTA==
   dependencies:
-    "@rsbuild/shared" "0.6.13"
+    "@rsbuild/shared" "0.6.15"
     "@rspack/plugin-react-refresh" "0.6.5"
     react-refresh "^0.14.2"
-
-"@rsbuild/shared@0.6.13":
-  version "0.6.13"
-  resolved "https://registry.yarnpkg.com/@rsbuild/shared/-/shared-0.6.13.tgz#815fc643712dc701819a592a29d4bf4cea5d1614"
-  integrity sha512-zXlqgfpMHJd/OgFQfqPWISYLUDgci95n/QrkgGk3ZwpQp66zlL6/5qHvgjo0dB/tHh1UZayuHYRB6zHeypVmbA==
-  dependencies:
-    "@rspack/core" "0.6.5"
-    caniuse-lite "^1.0.30001616"
-    postcss "^8.4.38"
-  optionalDependencies:
-    fsevents "~2.3.3"
 
 "@rsbuild/shared@0.6.15":
   version "0.6.15"
