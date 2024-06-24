@@ -274,26 +274,14 @@
     html-webpack-plugin "npm:html-rspack-plugin@5.7.2"
     postcss "^8.4.38"
 
-"@rsbuild/plugin-react@^0.7.2":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-0.7.7.tgz#daec881604f2103c44501691da8f8fbacf2a12ac"
-  integrity sha512-L/YYdgu7A9I9Cd8ZgVjYnRGDNqkIH3Su/5GZGBQTIS6H0BJytIo21sl7eV/pUWyAeZJg/1NMWjYKVMUja70EFA==
+"@rsbuild/plugin-react@^0.7.8":
+  version "0.7.8"
+  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-0.7.8.tgz#b15ff89d6196fd7db68e786e34dc70aae9080533"
+  integrity sha512-FDqSZVoGxdxtOZcLGOJTQJ3CPzJm5cPqwllntMxuwF4r3JaJVCrx5vdblYVA/9KWxDzAq4OR82VIfUNV5G8UuA==
   dependencies:
-    "@rsbuild/shared" "0.7.7"
+    "@rsbuild/shared" "0.7.8"
     "@rspack/plugin-react-refresh" "0.7.3"
     react-refresh "^0.14.2"
-
-"@rsbuild/shared@0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@rsbuild/shared/-/shared-0.7.7.tgz#24f795437610cf0903b0f40905e37af3f047cc2b"
-  integrity sha512-xqHgpyVnAtf2WfJjn/Q7SCD+HbO0WsKwiaFm5U+jUNUYhJrrqO6Hf+ph/uUGv7LxDr4tiHNkZZH8BKHk6EtYbQ==
-  dependencies:
-    "@rspack/core" "0.7.3"
-    caniuse-lite "^1.0.30001632"
-    html-webpack-plugin "npm:html-rspack-plugin@5.7.2"
-    postcss "^8.4.38"
-  optionalDependencies:
-    fsevents "~2.3.3"
 
 "@rsbuild/shared@0.7.9":
   version "0.7.9"
@@ -504,9 +492,9 @@
     pretty-format "^29.0.0"
 
 "@types/node@*", "@types/node@^20.x":
-  version "20.14.2"
-  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.2.tgz#a5f4d2bcb4b6a87bffcaa717718c5a0f208f4a18"
-  integrity sha512-xyu6WAMVwv6AKFLB+e/7ySZVr/0zLCzOa7rSpq6jNwpqOrUbcACDWC+53d4n2QHOnDou0fbIsg8wZu/sxrnI4Q==
+  version "20.14.8"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-20.14.8.tgz#45c26a2a5de26c3534a9504530ddb3b27ce031ac"
+  integrity sha512-DO+2/jZinXfROG7j7WKFn/3C6nFwxy2lLpgLjEXJz+0XKphZlTLJ14mo8Vfg8X5BWN6XjyESXq+LcYdT7tR3bA==
   dependencies:
     undici-types "~5.26.4"
 
@@ -680,7 +668,7 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-caniuse-lite@^1.0.30001616, caniuse-lite@^1.0.30001632:
+caniuse-lite@^1.0.30001616:
   version "1.0.30001634"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001634.tgz#aa563c8e7aeaf552f7ead60371bc8d803425deaa"
   integrity sha512-fbBYXQ9q3+yp1q1gBk86tOFs4pyn/yxFm5ZNP18OXJDfA3txImOY9PhfxVggZ4vRHDqoU8NrKU81eN0OtzOgRA==
@@ -712,10 +700,10 @@ chroma-js@^1.3.4:
   resolved "https://registry.yarnpkg.com/chroma-js/-/chroma-js-1.4.1.tgz#eb2d9c4d1ff24616be84b35119f4d26f8205f134"
   integrity sha512-jTwQiT859RTFN/vIf7s+Vl/Z2LcMrvMv3WUFmd/4u76AdlFC0NTNgqEEFPcRiHmAswPsMiQEDZLM8vX8qXpZNQ==
 
-chromium-bidi@0.5.23:
-  version "0.5.23"
-  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-0.5.23.tgz#0fbebc8b0c908d33f870b961d04fca3e2d4fa0ba"
-  integrity sha512-1o/gLU9wDqbN5nL2MtfjykjOuighGXc3/hnWueO1haiEoFgX8h5vbvcA4tgdQfjw1mkZ1OEF4x/+HVeqEX6NoA==
+chromium-bidi@0.5.24:
+  version "0.5.24"
+  resolved "https://registry.yarnpkg.com/chromium-bidi/-/chromium-bidi-0.5.24.tgz#0fe672fa30b1e6bcc63ae818442b21c41849c435"
+  integrity sha512-5xQNN2SVBdZv4TxeMLaI+PelrnZsHDhn8h2JtyriLr+0qHcZS8BMuo93qN6J1VmtmrgYP+rmcLHcbpnA8QJh+w==
   dependencies:
     mitt "3.0.1"
     urlpattern-polyfill "10.0.0"
@@ -1693,26 +1681,26 @@ pump@^3.0.0:
     end-of-stream "^1.1.0"
     once "^1.3.1"
 
-puppeteer-core@22.11.1:
-  version "22.11.1"
-  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-22.11.1.tgz#623f12a751455f4d2bdde2acaea131012c7fe3ac"
-  integrity sha512-lIMQrpbMlQ5GqXzD7fo/j74PhceRma+DrVFX+vAx3cwURsfDKyYx7fksTo1nUfLmKyXRyCDSa2peASa/DQ0R9Q==
+puppeteer-core@22.12.0:
+  version "22.12.0"
+  resolved "https://registry.yarnpkg.com/puppeteer-core/-/puppeteer-core-22.12.0.tgz#2022b1f05cdf7ee7bb201c890f07628a4979de4e"
+  integrity sha512-9gY+JwBW/Fp3/x9+cOGK7ZcwqjvtvY2xjqRqsAA0B3ZFMzBauVTSZ26iWTmvOQX2sk78TN/rd5rnetxVxmK5CQ==
   dependencies:
     "@puppeteer/browsers" "2.2.3"
-    chromium-bidi "0.5.23"
+    chromium-bidi "0.5.24"
     debug "4.3.5"
     devtools-protocol "0.0.1299070"
-    ws "8.17.0"
+    ws "8.17.1"
 
 puppeteer@^22.x:
-  version "22.11.1"
-  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-22.11.1.tgz#06acc384350382143046eb6feea208c8bc4ec41b"
-  integrity sha512-NhpLQC2NMXcNvCquRCeFWxu12ywfBeZ8wK9TyupOnSyaX2czeuqZdBVOQ33mBzmG8qTnM7DsStY8Z+TOgshMdA==
+  version "22.12.0"
+  resolved "https://registry.yarnpkg.com/puppeteer/-/puppeteer-22.12.0.tgz#6bc8910daba39bc2fccb7980a2c57696b87329e9"
+  integrity sha512-kyUYI12SyJIjf9UGTnHfhNMYv4oVK321Jb9QZDBiGVNx5453SplvbdKI7UrF+S//3RtCneuUFCyHxnvQXQjpxg==
   dependencies:
     "@puppeteer/browsers" "2.2.3"
     cosmiconfig "9.0.0"
     devtools-protocol "0.0.1299070"
-    puppeteer-core "22.11.1"
+    puppeteer-core "22.12.0"
 
 queue-tick@^1.0.1:
   version "1.0.1"
@@ -1936,9 +1924,9 @@ tslib@^2.0.1, tslib@^2.4.0:
   integrity sha512-xNvxJEOUiWPGhUuUdQgAJPKOOJfGnIyKySOc09XkKsgdUV/3E2zvwZYdejjmRgPCgcym1juLH3226yA7sEFJKQ==
 
 typescript@^5.x:
-  version "5.4.5"
-  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.4.5.tgz#42ccef2c571fdbd0f6718b1d1f5e6e5ef006f611"
-  integrity sha512-vcI4UpRgg81oIRUFwR0WSIHKt11nJ7SAVlYNIu+QpqeyXP+gpQJy/Z4+F0aGxSE4MqwjyXvW/TzgkLAx2AGHwQ==
+  version "5.5.2"
+  resolved "https://registry.yarnpkg.com/typescript/-/typescript-5.5.2.tgz#c26f023cb0054e657ce04f72583ea2d85f8d0507"
+  integrity sha512-NcRtPEOsPFFWjobJEtfihkLCZCXZt/os3zf8nTxjVH3RvTSxjrCamJpbExGvYOF+tFHc3pA65qpdwPbzjohhew==
 
 unbzip2-stream@1.4.3:
   version "1.4.3"
@@ -1982,10 +1970,10 @@ wrappy@1:
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
 
-ws@8.17.0:
-  version "8.17.0"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.0.tgz#d145d18eca2ed25aaf791a183903f7be5e295fea"
-  integrity sha512-uJq6108EgZMAl20KagGkzCKfMEjxmKvZHG7Tlq0Z6nOky7YF7aq4mOx6xK8TJ/i1LeK4Qus7INktacctDgY8Ow==
+ws@8.17.1:
+  version "8.17.1"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-8.17.1.tgz#9293da530bb548febc95371d90f9c878727d919b"
+  integrity sha512-6XQFvXTkbfUOZOKKILFG1PDK2NDQs4azKQl26T0YS5CxqWLgXajbPZ+h4gZekJyRqFU8pvnbAbbs/3TgRPy+GQ==
 
 ws@^6.1.2:
   version "6.2.3"
