@@ -274,26 +274,14 @@
     html-webpack-plugin "npm:html-rspack-plugin@5.7.2"
     postcss "^8.4.38"
 
-"@rsbuild/plugin-react@^0.7.2":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-0.7.7.tgz#daec881604f2103c44501691da8f8fbacf2a12ac"
-  integrity sha512-L/YYdgu7A9I9Cd8ZgVjYnRGDNqkIH3Su/5GZGBQTIS6H0BJytIo21sl7eV/pUWyAeZJg/1NMWjYKVMUja70EFA==
+"@rsbuild/plugin-react@^0.7.8":
+  version "0.7.8"
+  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-0.7.8.tgz#b15ff89d6196fd7db68e786e34dc70aae9080533"
+  integrity sha512-FDqSZVoGxdxtOZcLGOJTQJ3CPzJm5cPqwllntMxuwF4r3JaJVCrx5vdblYVA/9KWxDzAq4OR82VIfUNV5G8UuA==
   dependencies:
-    "@rsbuild/shared" "0.7.7"
+    "@rsbuild/shared" "0.7.8"
     "@rspack/plugin-react-refresh" "0.7.3"
     react-refresh "^0.14.2"
-
-"@rsbuild/shared@0.7.7":
-  version "0.7.7"
-  resolved "https://registry.yarnpkg.com/@rsbuild/shared/-/shared-0.7.7.tgz#24f795437610cf0903b0f40905e37af3f047cc2b"
-  integrity sha512-xqHgpyVnAtf2WfJjn/Q7SCD+HbO0WsKwiaFm5U+jUNUYhJrrqO6Hf+ph/uUGv7LxDr4tiHNkZZH8BKHk6EtYbQ==
-  dependencies:
-    "@rspack/core" "0.7.3"
-    caniuse-lite "^1.0.30001632"
-    html-webpack-plugin "npm:html-rspack-plugin@5.7.2"
-    postcss "^8.4.38"
-  optionalDependencies:
-    fsevents "~2.3.3"
 
 "@rsbuild/shared@0.7.8":
   version "0.7.8"
@@ -609,7 +597,7 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-caniuse-lite@^1.0.30001616, caniuse-lite@^1.0.30001632:
+caniuse-lite@^1.0.30001616:
   version "1.0.30001634"
   resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001634.tgz#aa563c8e7aeaf552f7ead60371bc8d803425deaa"
   integrity sha512-fbBYXQ9q3+yp1q1gBk86tOFs4pyn/yxFm5ZNP18OXJDfA3txImOY9PhfxVggZ4vRHDqoU8NrKU81eN0OtzOgRA==
