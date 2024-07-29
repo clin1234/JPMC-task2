@@ -7,7 +7,7 @@
     "@finos/perspective-viewer": "^2.x",
     "@finos/perspective-viewer-d3fc": "^2.x",
     "@types/jest": "^29.x",
-    "@types/node": "^20.x",
+    "@types/node": "^22.x",
     "@types/react": "^18.x",
     "@types/react-dom": "^18.x",
     "bootstrap": "^5.x",
