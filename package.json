@@ -11,7 +11,7 @@
     "@types/react": "^18.x",
     "@types/react-dom": "^18.x",
     "bootstrap": "^5.x",
-    "puppeteer": "^22.x",
+    "puppeteer": "^23.x",
     "react": "^18.x",
     "react-dom": "^18.x"
   },
