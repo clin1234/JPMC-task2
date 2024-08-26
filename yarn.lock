@@ -164,13 +164,13 @@
   dependencies:
     "@d3fc/d3fc-rebind" "^6.0.1"
 
-"@finos/perspective-viewer-d3fc@^2.x":
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-d3fc/-/perspective-viewer-d3fc-2.10.1.tgz#f43333a73c37732a0f4a6069e8cb148e61b050fc"
-  integrity sha512-penH8+6S/tOzwGAywVL1pAPAYTDRr50CL7t5tYUUpc1+w5LgVyW/J55xHCz86WkrOH8qLy62OEGqDegP5uxF8A==
+"@finos/perspective-viewer-d3fc@^3.x":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer-d3fc/-/perspective-viewer-d3fc-3.0.1.tgz#c2a9d23b7f4ccbb81e6c0ea7c8aa976e0706d989"
+  integrity sha512-1kicxBHu9i0Kle/Q5GBgf1iw3oVAY3myT+ylVjR1uVFUfTo+YcB0dVql3aIlRpgQDJPr+qdkZxOw4tGvBW5GXw==
   dependencies:
-    "@finos/perspective" "^2.10.1"
-    "@finos/perspective-viewer" "^2.10.1"
+    "@finos/perspective" "^3.0.1"
+    "@finos/perspective-viewer" "^3.0.1"
     chroma-js "^1.3.4"
     d3 "^7.8.0"
     d3-array "^3.2.1"
@@ -179,12 +179,19 @@
     d3fc "^15.2.4"
     gradient-parser "1.0.2"
 
-"@finos/perspective-viewer@^2.10.1", "@finos/perspective-viewer@^2.x":
+"@finos/perspective-viewer@^2.x":
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-2.10.1.tgz#e868ce45269852bc3e30639e8f4ab6c7735d4e9f"
   integrity sha512-G/P+EQXRTYurWpTjTU+VXKM3WHbbTjjpxEfLQLA9BS8gO0NwK1nXT7I5a9PEhVtRnVHEJrpNa2+VbIWTeG15dQ==
   dependencies:
     "@finos/perspective" "^2.10.1"
+
+"@finos/perspective-viewer@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-3.0.1.tgz#16aee86eafc11063ddea9450c92baaadbda1af5c"
+  integrity sha512-H1VDYX4ol6EotTdHYhmulx/4jH3gYEkmhsJ+BkMrb/xCycxmSkt4u5wcqoNYCgz8ucn1eBEZyD69qXTI2LnX6g==
+  dependencies:
+    "@finos/perspective" "^3.0.1"
 
 "@finos/perspective@^2.10.1", "@finos/perspective@^2.x":
   version "2.10.1"
@@ -193,6 +200,14 @@
   dependencies:
     stoppable "1.1.0"
     ws "^6.1.2"
+
+"@finos/perspective@^3.0.1":
+  version "3.0.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.0.1.tgz#f800785fbc010fadb9b4036d73ee54e73f6b6827"
+  integrity sha512-cHNR3Y5Lj3kulaO661WtHemOS3DKE/Qz7TQJXUf+CR+4ExaHmu97S7k+Er0548IvG5XaKTWhSXaHYTwRDJxsSg==
+  dependencies:
+    stoppable "^1.1.0"
+    ws "^8.17.0"
 
 "@jest/expect-utils@^29.7.0":
   version "29.7.0"
@@ -1751,7 +1766,7 @@ stack-utils@^2.0.3:
   dependencies:
     escape-string-regexp "^2.0.0"
 
-stoppable@1.1.0:
+stoppable@1.1.0, stoppable@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/stoppable/-/stoppable-1.1.0.tgz#32da568e83ea488b08e4d7ea2c3bcc9d75015d5b"
   integrity sha512-KXDYZ9dszj6bzvnEMRYvxgeTHU74QBFL54XKtP3nyMuJ81CFYtABZ3bAzL2EdFUaEwJOBOgENyFj3R7oTzDyyw==
@@ -1905,7 +1920,7 @@ ws@^6.1.2:
   dependencies:
     async-limiter "~1.0.0"
 
-ws@^8.18.0:
+ws@^8.17.0, ws@^8.18.0:
   version "8.18.0"
   resolved "https://registry.yarnpkg.com/ws/-/ws-8.18.0.tgz#0d7505a6eafe2b0e712d232b42279f53bc289bbc"
   integrity sha512-8VbfWfHLbbwu3+N6OKsOMpBdT4kXPDDB9cJk2bJ6mh9ucxdlnNvH1e+roYkKmN9Nxw2yjz7VzeO9oOz2zJ04Pw==
