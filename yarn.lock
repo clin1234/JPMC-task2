@@ -179,21 +179,14 @@
     d3fc "^15.2.4"
     gradient-parser "1.0.2"
 
-"@finos/perspective-viewer@^2.x":
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-2.10.1.tgz#e868ce45269852bc3e30639e8f4ab6c7735d4e9f"
-  integrity sha512-G/P+EQXRTYurWpTjTU+VXKM3WHbbTjjpxEfLQLA9BS8gO0NwK1nXT7I5a9PEhVtRnVHEJrpNa2+VbIWTeG15dQ==
-  dependencies:
-    "@finos/perspective" "^2.10.1"
-
-"@finos/perspective-viewer@^3.0.1":
+"@finos/perspective-viewer@^3.0.1", "@finos/perspective-viewer@^3.x":
   version "3.0.1"
   resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-3.0.1.tgz#16aee86eafc11063ddea9450c92baaadbda1af5c"
   integrity sha512-H1VDYX4ol6EotTdHYhmulx/4jH3gYEkmhsJ+BkMrb/xCycxmSkt4u5wcqoNYCgz8ucn1eBEZyD69qXTI2LnX6g==
   dependencies:
     "@finos/perspective" "^3.0.1"
 
-"@finos/perspective@^2.10.1", "@finos/perspective@^2.x":
+"@finos/perspective@^2.x":
   version "2.10.1"
   resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.10.1.tgz#22f3e806a55c1eb1ccf077c70d0d192ce8c1326a"
   integrity sha512-2WfHOKH8XEtkQqgg8T9OxWsE44Kr5T7iX3zqwVRrnllKySBRav76Ah2v2cKyMbZCsuieqWAFliIzIoJpI8ZNiA==
