@@ -186,18 +186,10 @@
   dependencies:
     "@finos/perspective" "^3.0.1"
 
-"@finos/perspective@^2.x":
-  version "2.10.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-2.10.1.tgz#22f3e806a55c1eb1ccf077c70d0d192ce8c1326a"
-  integrity sha512-2WfHOKH8XEtkQqgg8T9OxWsE44Kr5T7iX3zqwVRrnllKySBRav76Ah2v2cKyMbZCsuieqWAFliIzIoJpI8ZNiA==
-  dependencies:
-    stoppable "1.1.0"
-    ws "^6.1.2"
-
-"@finos/perspective@^3.0.1":
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.0.1.tgz#f800785fbc010fadb9b4036d73ee54e73f6b6827"
-  integrity sha512-cHNR3Y5Lj3kulaO661WtHemOS3DKE/Qz7TQJXUf+CR+4ExaHmu97S7k+Er0548IvG5XaKTWhSXaHYTwRDJxsSg==
+"@finos/perspective@^3.0.1", "@finos/perspective@^3.x":
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.0.2.tgz#62746026e16de176fb129c80d77163bd5923c0e3"
+  integrity sha512-1QiaIgSBnb3UjPwMLskMA+MZFpXJHj9dS3ti3a8CkklMaCbdduBgXNc5PUam/e67RDFauH27b9ATB2Qs/x3BQA==
   dependencies:
     stoppable "^1.1.0"
     ws "^8.17.0"
@@ -521,11 +513,6 @@ ast-types@^0.13.4:
   integrity sha512-x1FCFnFifvYDDzTaLII71vG5uvDwgtmDTEVWAxrgeiR8VjMONcCXJx7E+USjDtHlwFmt9MysbqgF9b9Vjr6w+w==
   dependencies:
     tslib "^2.0.1"
-
-async-limiter@~1.0.0:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/async-limiter/-/async-limiter-1.0.1.tgz#dd379e94f0db8310b08291f9d64c3209766617fd"
-  integrity sha512-csOlWGAcRFJaI6m+F2WKdnMKr4HhdhFVBk0H/QbJFMCr+uO2kwohwXQPxw/9OCxp05r5ghVBFSyioixx3gfkNQ==
 
 b4a@^1.6.4:
   version "1.6.6"
@@ -1759,7 +1746,7 @@ stack-utils@^2.0.3:
   dependencies:
     escape-string-regexp "^2.0.0"
 
-stoppable@1.1.0, stoppable@^1.1.0:
+stoppable@^1.1.0:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/stoppable/-/stoppable-1.1.0.tgz#32da568e83ea488b08e4d7ea2c3bcc9d75015d5b"
   integrity sha512-KXDYZ9dszj6bzvnEMRYvxgeTHU74QBFL54XKtP3nyMuJ81CFYtABZ3bAzL2EdFUaEwJOBOgENyFj3R7oTzDyyw==
@@ -1905,13 +1892,6 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==
-
-ws@^6.1.2:
-  version "6.2.3"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.3.tgz#ccc96e4add5fd6fedbc491903075c85c5a11d9ee"
-  integrity sha512-jmTjYU0j60B+vHey6TfR3Z7RD61z/hmxBS3VMSGIrroOWXQEneK1zNuotOUrGyBHQj0yrpsLHPWtigEFd13ndA==
-  dependencies:
-    async-limiter "~1.0.0"
 
 ws@^8.17.0, ws@^8.18.0:
   version "8.18.0"
