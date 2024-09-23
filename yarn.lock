@@ -187,9 +187,9 @@
     "@finos/perspective" "^3.0.3"
 
 "@finos/perspective@^3.0.3", "@finos/perspective@^3.x":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.0.3.tgz#ded2e4f408c64d4a50691a9fe5167087364d096c"
-  integrity sha512-3VwjDQ/RaTbC8elucOYjoaHIVbVg6Rdce/kmI28LcaorB7zYvjzClY2qDohcO+rmcF6eIji/+LfknGqY6/ZHMQ==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.1.0.tgz#dd52427de954817bfcb87f81768b90cd1882a7af"
+  integrity sha512-nyO4NWU1+C4C0SOYDdHM7p01uPl9eeJUYMG+YNy+LNOg5xGSpNZ4CI4iT9+1N7mSKLl9mrly8OAoRQXEHoDKTA==
   dependencies:
     stoppable "^1.1.0"
     ws "^8.17.0"
@@ -1476,15 +1476,15 @@ mitt@3.0.1:
   resolved "https://registry.yarnpkg.com/mitt/-/mitt-3.0.1.tgz#ea36cf0cc30403601ae074c8f77b7092cdab36d1"
   integrity sha512-vKivATfr97l2/QBCYAkXYDbrIWPM2IIKEl7YPhjCvKlG3kE2gm+uBo6nEXK3M5/Ffh/FLpKExzOQ3JJoJGFKBw==
 
+ms@2.1.2:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.2.tgz#d09d1f357b443f493382a8eb3ccd183872ae6009"
+  integrity sha512-sGkPx+VjMtmA6MX27oA4FBFELFCZZ4S4XqeGOXCv68tT+jb3vk/RyaKWP0PTKyWtmLSM0b+adUTEvbs1PEaH2w==
+
 ms@^2.1.3:
   version "2.1.3"
   resolved "https://registry.yarnpkg.com/ms/-/ms-2.1.3.tgz#574c8138ce1d2b5861f0b44579dbadd60c6615b2"
   integrity sha512-6FlzubTLZG3J2a/NVCAleEhjzq5oxgHyaCU9yYXvcLsvoVaHJq/s5xXI6/XXP6tz7R9xAOtHnSO/tXtF3WRTlA==
-
-nanoid@^3.3.7:
-  version "3.3.7"
-  resolved "https://registry.yarnpkg.com/nanoid/-/nanoid-3.3.7.tgz#d0c301a691bc8d54efa0a2226ccf3fe2fd656bd8"
-  integrity sha512-eSRppjcPIatRIMC1U6UngP8XFcz8MQWGQdt1MTBQ7NaAmvXDfvNxbvWV3x2y6CdEUciCSsDHDQZbhYaB8QEo2g==
 
 netmask@^2.0.2:
   version "2.0.2"
