@@ -180,13 +180,14 @@
     gradient-parser "1.0.2"
 
 "@finos/perspective-viewer@^3.0.3", "@finos/perspective-viewer@^3.x":
-  version "3.0.3"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-3.0.3.tgz#1486e478629fd9332609e9d30bd27e0406b628ac"
-  integrity sha512-O3fLXG7HZbTk1JjGGPjSDDdY4/SKLYrG8xO4/QD6/8sn/wQ0CMaRo+GdcyZsAG0xedwrzt9qUj6NyVnACOoIYA==
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-3.1.0.tgz#e817ffd47bbf3dd166ff1237b66d4e83a0c55bb2"
+  integrity sha512-PBb+B160Oasjb6xTDFBdOiGvHbxtAfMQQdNGjiobtiQwLa0U7c7dsuDf0BAdIYVnofdkksP0HWPv3aa6nm+v6g==
   dependencies:
-    "@finos/perspective" "^3.0.3"
+    "@finos/perspective" "^3.1.0"
 
-"@finos/perspective@^3.0.3", "@finos/perspective@^3.x":
+
+"@finos/perspective@^3.0.3", "@finos/perspective@^3.1.0", "@finos/perspective@^3.x":
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.1.0.tgz#dd52427de954817bfcb87f81768b90cd1882a7af"
   integrity sha512-nyO4NWU1+C4C0SOYDdHM7p01uPl9eeJUYMG+YNy+LNOg5xGSpNZ4CI4iT9+1N7mSKLl9mrly8OAoRQXEHoDKTA==
@@ -262,15 +263,15 @@
     unbzip2-stream "^1.4.3"
     yargs "^17.7.2"
 
-"@rsbuild/core@^1.0.4":
-  version "1.0.4"
-  resolved "https://registry.yarnpkg.com/@rsbuild/core/-/core-1.0.4.tgz#813534c9cf8a6b97022d5a91a057bfbcda898338"
-  integrity sha512-ACvCzeyW5gW5olGBzK5Tnc5RfUOQ+BPnMB7Y0Iycz0pRYAghKQcYkpPZlEpdsKQDNeBUKk9loOy+Z7Rca4Ouzw==
+"@rsbuild/core@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@rsbuild/core/-/core-1.0.5.tgz#ce59f82c685e06c9a8771f39a64fbb0286d80e5d"
+  integrity sha512-yUWs4k9X9C661P0kwe3Om1GMJKAxliXDMnBV5hHoaEuAovdp/pOG3pk2fVsRrxcwMn3i6FyMGSVB7g0WmQpeHA==
   dependencies:
     "@rspack/core" "~1.0.5"
     "@rspack/lite-tapable" "~1.0.0"
     "@swc/helpers" "^0.5.13"
-    caniuse-lite "^1.0.30001659"
+    caniuse-lite "^1.0.30001660"
     core-js "~3.38.1"
   optionalDependencies:
     fsevents "~2.3.3"
@@ -435,9 +436,9 @@
     "@types/react" "*"
 
 "@types/react@*", "@types/react@^18.x":
-  version "18.3.6"
-  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.6.tgz#1cb5895c5ea0d99d8bc7d659e42f72713cbd3942"
-  integrity sha512-CnGaRYNu2iZlkGXGrOYtdg5mLK8neySj0woZ4e2wF/eli2E6Sazmq5X+Nrj6OBrrFVQfJWTUFeqAzoRhWQXYvg==
+  version "18.3.8"
+  resolved "https://registry.yarnpkg.com/@types/react/-/react-18.3.8.tgz#1672ab19993f8aca7c7dc844c07d5d9e467d5a79"
+  integrity sha512-syBUrW3/XpnW4WJ41Pft+I+aPoDVbrBVQGEnbD7NijDGlVC+8gV/XKRY+7vMDlfPpbwYt0l1vd/Sj8bJGMbs9Q==
   dependencies:
     "@types/prop-types" "*"
     csstype "^3.0.2"
@@ -587,10 +588,10 @@ callsites@^3.0.0:
   resolved "https://registry.yarnpkg.com/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-caniuse-lite@^1.0.30001616, caniuse-lite@^1.0.30001659:
-  version "1.0.30001660"
-  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001660.tgz#31218de3463fabb44d0b7607b652e56edf2e2355"
-  integrity sha512-GacvNTTuATm26qC74pt+ad1fW15mlQ/zuTzzY1ZoIzECTP8HURDfF43kNxPgf7H1jmelCBQTTbBNxdSXOA7Bqg==
+caniuse-lite@^1.0.30001616, caniuse-lite@^1.0.30001660:
+  version "1.0.30001663"
+  resolved "https://registry.yarnpkg.com/caniuse-lite/-/caniuse-lite-1.0.30001663.tgz#1529a723505e429fdfd49532e9fc42273ba7fed7"
+  integrity sha512-o9C3X27GLKbLeTYZ6HBOLU1tsAcBZsLis28wrVzddShCS16RujjHp9GDHKZqrB3meE0YjhawvMFsGb/igqiPzA==
 
 chalk@^2.4.2:
   version "2.4.2"
