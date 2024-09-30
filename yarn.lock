@@ -275,10 +275,10 @@
   optionalDependencies:
     fsevents "~2.3.3"
 
-"@rsbuild/plugin-react@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-1.0.2.tgz#fa4b6dca101946c2c74d87f91db67d76a8133d21"
-  integrity sha512-8Sa4AJ43/ift7ZW1iNMA38ZIEDXNINPa8rGI38u7b42yBgMUWBan8yDjFYAC0Gkg3lh8vCWYVQYZp0RyIS7lqA==
+"@rsbuild/plugin-react@^1.0.3":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-1.0.3.tgz#6681b46d8a1eeb86c195d8cf9a91d33082987e88"
+  integrity sha512-HVfPiKINmDsIcLLs7YWAYQgzytVZOydBuPOFg5EoJiMHkFVjH0Rg3QViS3Hn6k3INqdc6ylpcYyOHHYItEIkWA==
   dependencies:
     "@rspack/plugin-react-refresh" "1.0.0"
     react-refresh "^0.14.2"
