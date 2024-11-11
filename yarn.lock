@@ -275,12 +275,12 @@
   optionalDependencies:
     fsevents "~2.3.3"
 
-"@rsbuild/plugin-react@^1.0.2":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-1.0.2.tgz#fa4b6dca101946c2c74d87f91db67d76a8133d21"
-  integrity sha512-8Sa4AJ43/ift7ZW1iNMA38ZIEDXNINPa8rGI38u7b42yBgMUWBan8yDjFYAC0Gkg3lh8vCWYVQYZp0RyIS7lqA==
+"@rsbuild/plugin-react@^1.0.7":
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/@rsbuild/plugin-react/-/plugin-react-1.0.7.tgz#7764cc4f715da94e5b6a0ed7fe8a1a0a9229b447"
+  integrity sha512-t7T/GqDwodusTAnxGpqVRnQ/G+HYh98zk71qIg19WkjVJJGv57AC1Ppx0/6zzbZAbxU60bfK8TeEEXjhXCdSxA==
   dependencies:
-    "@rspack/plugin-react-refresh" "1.0.0"
+    "@rspack/plugin-react-refresh" "~1.0.0"
     react-refresh "^0.14.2"
 
 "@rspack/binding-darwin-arm64@1.0.5":
@@ -358,7 +358,7 @@
   resolved "https://registry.yarnpkg.com/@rspack/lite-tapable/-/lite-tapable-1.0.0.tgz#160883693462f164d0e6ede22f32614673ef6429"
   integrity sha512-7MZf4lburSUZoEenwazwUDKHhqyfnLCGnQ/tKcUtztfmVzfjZfRn/EaiT0AKkYGnL2U8AGsw89oUeVyvaOLVCw==
 
-"@rspack/plugin-react-refresh@1.0.0":
+"@rspack/plugin-react-refresh@~1.0.0":
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/@rspack/plugin-react-refresh/-/plugin-react-refresh-1.0.0.tgz#7e0cc22b157d25131be4283667cdbb86960a3650"
   integrity sha512-WvXkLewW5G0Mlo5H1b251yDh5FFiH4NDAbYlFpvFjcuXX2AchZRf9zdw57BDE/ADyWsJgA8kixN/zZWBTN3iYA==
