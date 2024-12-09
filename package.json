@@ -8,12 +8,12 @@
     "@finos/perspective-viewer-d3fc": "^3.x",
     "@types/jest": "^29.x",
     "@types/node": "^22.x",
-    "@types/react": "^18.x",
+    "@types/react": "^19.x",
     "@types/react-dom": "^18.x",
     "bootstrap": "^5.x",
     "puppeteer": "^23.x",
-    "react": "^18.x",
-    "react-dom": "^18.x"
+    "react": "^19.x",
+    "react-dom": "^19.x"
   },
   "scripts": {
     "start": "rsbuild dev",
