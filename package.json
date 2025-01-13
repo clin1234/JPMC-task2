@@ -30,7 +30,7 @@
     "not op_mini all"
   ],
   "devDependencies": {
-    "@rsbuild/core": "^1.0.5",
+    "@rsbuild/core": "^1.1.13",
     "@rsbuild/plugin-react": "^1.0.2",
     "source-map-loader": "^5.x",
     "typescript": "^5.x"
