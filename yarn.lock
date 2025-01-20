@@ -180,16 +180,16 @@
     gradient-parser "1.0.2"
 
 "@finos/perspective-viewer@^3.1.0", "@finos/perspective-viewer@^3.x":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-3.2.1.tgz#0e057a0c75d87875ccc1c84062a38da093476e06"
-  integrity sha512-TNGixtf5k9WUn3+D181DJBP0uyLIPNNf0/sgYISycbwPh3Aqs713FAtwj5S71sQuT/KCuSDb/2543NdnvrcnFQ==
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@finos/perspective-viewer/-/perspective-viewer-3.3.0.tgz#90083620dc1a8663c06d747f411f0300bfea64f3"
+  integrity sha512-+jPrCRW+czza+SlbmkuGTOXldPkG+cCGYpsLBguu/IwF0Na4g7QubpjLF5Mecy3GP0URI6UhnO4Op50RkWZB5w==
   dependencies:
-    "@finos/perspective" "^3.2.1"
+    "@finos/perspective" "^3.3.0"
 
-"@finos/perspective@^3.1.0", "@finos/perspective@^3.2.1", "@finos/perspective@^3.x":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.2.1.tgz#20a180e7ac16d0b185b55d263533b451fadf6c50"
-  integrity sha512-msEKySmcpsF5ncLVGhN8+anJMuv6wXW/fDs6LXHzDq5aYJthdp1ILpuUZwJ5LXB9vYIwfX3bR2Q83VD5S3FEmA==
+"@finos/perspective@^3.1.0", "@finos/perspective@^3.3.0", "@finos/perspective@^3.x":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.3.0.tgz#a31484538448ed60768491f99bc6444f593a7899"
+  integrity sha512-GYzXPqHnhrWQz930f9OejVvsBs5I6jjJLvbK/xfUK2AUijMhzAUsPI70uEKUFwsy5VMA6sxWPl/UQB9W9IBGDw==
   dependencies:
     stoppable "^1.1.0"
     ws "^8.17.0"
