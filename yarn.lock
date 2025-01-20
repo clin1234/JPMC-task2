@@ -262,10 +262,10 @@
     unbzip2-stream "^1.4.3"
     yargs "^17.7.2"
 
-"@rsbuild/core@^1.1.13":
-  version "1.1.13"
-  resolved "https://registry.yarnpkg.com/@rsbuild/core/-/core-1.1.13.tgz#8e6c0304582674b82613d1bb1acdaf6eb553299e"
-  integrity sha512-XBL2hrin8731W6iTGGL+x3cv07n4vm2D7u6XHRwtQkRfySzAqGx7ThlQLdNX/dJwfsoQrYQuWl/qzaljjXtGtg==
+"@rsbuild/core@^1.1.14":
+  version "1.1.14"
+  resolved "https://registry.yarnpkg.com/@rsbuild/core/-/core-1.1.14.tgz#5493425e566bcc4ea4a73e7981ac2469b0293909"
+  integrity sha512-CHq8LpCMqLLMSq+UeTsmp0keiywovDl2SH521PLG2URWQqcwRn//6VXLYymnyOYELBbc8sVRn++DxqoBrDZ2Zg==
   dependencies:
     "@rspack/core" "1.1.8"
     "@rspack/lite-tapable" "~1.0.1"
