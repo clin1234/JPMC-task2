@@ -187,9 +187,9 @@
     "@finos/perspective" "^3.2.1"
 
 "@finos/perspective@^3.1.0", "@finos/perspective@^3.2.1", "@finos/perspective@^3.x":
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.2.1.tgz#20a180e7ac16d0b185b55d263533b451fadf6c50"
-  integrity sha512-msEKySmcpsF5ncLVGhN8+anJMuv6wXW/fDs6LXHzDq5aYJthdp1ILpuUZwJ5LXB9vYIwfX3bR2Q83VD5S3FEmA==
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/@finos/perspective/-/perspective-3.3.1.tgz#7089d3754cf00fa403ca0b1d76913c514d14a68c"
+  integrity sha512-ngR3qfFlo73p39B+SniWM/4Hrz7nVjp8NSWM5XtLCj/meIiE4H/xtKbpq+PjV2fiXZkZo5tb1VZ6DMf15nhSbw==
   dependencies:
     stoppable "^1.1.0"
     ws "^8.17.0"
