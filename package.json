@@ -33,6 +33,6 @@
     "@rsbuild/core": "^1.2.11",
     "@rsbuild/plugin-react": "^2.0.0",
     "source-map-loader": "^5.x",
-    "typescript": "^5.x"
+    "typescript": "^7.x"
   }
 }
